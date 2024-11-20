@@ -1,0 +1,209 @@
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  .border-bottom{
+    color: #1230AE;
+    
+  }
+
+  .visually {
+    color: #C68FE6;
+  }
+
+  .modes{
+    color: #6C48C5;
+  }
+
+ 
+
+  .nut{
+    color:#6C48C5 ;
+    
+  }
+
+  .d-block {
+     border-radius: 2rem;
+
+  }
+
+  .mb-0{
+    color: #6C48C5;
+  }
+
+  .gi{
+    color: #6C48C5;
+  }
+
+ /* General Styling */
+#service {
+  /* background-color: #f9f9f9; */
+  padding: 50px 0;
+}
+
+#service h2 {
+  /* text-align: center; */
+  color: #1230AE;
+  font-size: 2rem;
+}
+
+#service .container {
+  max-width: 1200px;
+}
+
+#service img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+/* Styling for Cards */
+#service .icon-square {
+  background-color: #eef;
+  border-radius: 0.5rem;
+  color: #333;
+}
+
+#service .fw-semibold {
+  font-size: 1.25rem;
+}
+
+#service p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  #service .row-cols-md-2 {
+    flex-direction: column;
+  }
+
+  #service .col img {
+    margin-bottom: 20px;
+  }
+
+  #service h2 {
+    font-size: 1.75rem;
+  }
+
+  #service p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #service h2 {
+    font-size: 1.5rem;
+  }
+
+  #service p {
+    font-size: 0.85rem;
+  }
+
+  #service .icon-square {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+}
+
+
+/* General Section Styling */
+#contact {
+  /* background-color: #f8f9fa; Light background */
+  padding: 3rem 1rem; /* Spacing */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Heading Styling */
+#contact h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #6C48C5; /* Dark grey */
+  margin-bottom: 1rem;
+}
+
+/* Paragraph Styling */
+#contact p {
+  font-size: 1rem;
+  color: #6c757d; /* Muted text */
+  margin-bottom: 1.5rem;
+}
+
+/* List Styling */
+#contact ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#contact ul li {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  color: #343a40; /* Text color */
+}
+
+#contact ul li i {
+  font-size: 1.5rem; /* Icon size */
+  margin-right: 0.8rem; /* Spacing between icon and text */
+}
+
+#contact ul li a {
+  color: #007bff; /* Link color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#contact ul li a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Highlight Icons */
+#contact ul li i.text-primary {
+  color: #007bff; /* Icon color */
+}
+
+/* Business Hours Styling */
+#contact ul li:last-child {
+  margin-bottom: 0; /* Remove margin from last list item */
+ } 
+
+.contact-box {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Space inside the box */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /*Subtle shadow */
+  text-align: center; /* Center the content inside */
+  max-width: 500px; /* Limit width */
+  margin: 0 auto; /* Center horizontally */
+  
+}
+.contact-box h4 {
+  font-size: 1.5rem; /* Larger heading */
+  margin-bottom: 15px; /* Space below heading */
+  color: #333;
+}
+.contact-box ul {
+  padding: 0; /* Remove list padding */
+  
+  
+}
+.contact-box li {
+  text-align: left; /* Align text to the left inside list items */
+  
+}
+.contact-box a {
+  color: #C68FE6; /*Bootstrap primary color for links*/
+  text-decoration: none; /* Remove underline from links */
+}
+.contact-box a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
